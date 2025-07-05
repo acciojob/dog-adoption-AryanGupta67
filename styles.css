@@ -1,2 +1,19 @@
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
 
-/* Your CSS Code here. */
+li img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  transition: transform 0.3s ease;
+}
+
+li img:hover {
+  transform: scale(1.05);
+}
